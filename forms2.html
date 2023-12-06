@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="demo.xml" method="get">
+        <fieldset>
+            <legend><h1> Create Account </h1></legend>
+            <LABEL for="first">First Name</LABEL><br/>
+            <input type="text" id="fn" required/><br/>
+            <label for="first"> Last Name</label><br/>
+            <input type="text" id="ln" value="kumar" read/>
+
+            <label for="Phone"> </label><br/>
+            <input type="number" id="pn"/><br>
+
+            <label for="email"> Email</label><br/>
+            <input 
+                type="email"
+                id="email"
+                placeholder="enter your email"
+                autofocus
+                /><br/>
+            <label for="DOB"> DOB</label><br/>
+            <INPUT TYPE="date" NAME="BDAY month" /><br/>
+
+            <label for="BDAY month"> B'day(month&year):</label>
+            <input type="month" Name="BDAY month" /><br/>
+            
+            <label> Gender</label><br/>
+            <input type="radio" name="fav" value="M" />
+            <label for="malename" >MALE</label><BR/>
+            <input type="radio" name="fav" value="F"/>
+            <label for="css"> FEMALE</label><BR/>
+            <input type="radio" name="fav" value="O" />
+            <label for="OTHER CATEGORY" >OTHERS</label><BR/>
+            <label> YOU LIKE TO RECEIVE: </label><br/>
+            <input type="checkbox" name="one" />
+            <label for="bb">Entertainment</label><br/>
+            <input type="checkbox" name="two" />
+            <label for="cc">Sports</label><br/>
+            <input type="checkbox" name="three"/>
+            <label for="hh">Action</label><br/>
+            <label> Password</label><br/>
+            <input type="password" name="pw" /><br/>
+
+            <label> Select a file </label><br/>
+            <input type="file" multiple /><br/>
+            <select size="1">
+                <option> Puffs</option>
+                <option> Ice Cream</option>
+                <option> Juice</option>
+            </select>
+        
+            <textarea name="fd" cols="40" rows="10">
+            How was PUffs 
+            </textarea>
+            ><br/>
+            select the week
+            <input type="week" /> <br/>
+            paste the url
+            <input type="url" /><br/>
+            pick the time
+            <input type="time" /><br/>
+            enter the telephone number
+            <input type="tel" /><br/>
+            enter your queries
+            <input type="search" /><br/>
+            pick the range
+            <input type="range" max="100" /><br/>
+
+           <input type="submit" value="Register" /> &nbsp;
+           <input type="reset" />
+        </fieldset>
+
+    </form>
+</body>
+</html>
